@@ -13,7 +13,7 @@ export default function Home() {
     <div className="flex flex-col flex-1 min-h-screen bg-zinc-50 dark:bg-zinc-950 font-sans">
       <header className="flex items-center justify-between px-8 py-4 bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800 shadow-sm">
         <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50 tracking-tight">
-          Resume Analyser
+          Resume Analyser Assistant
         </h1>
         <div className="flex items-center space-x-4">
           <Show when="signed-in">
