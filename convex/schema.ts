@@ -7,6 +7,7 @@ export default defineSchema({
     name: v.optional(v.string()),
     email: v.optional(v.string()),
     image: v.optional(v.string()),
+    role: v.optional(v.union(v.literal("candidate"), v.literal("coach"), v.literal("admin"))),
   })
     .index("by_token", ["tokenIdentifier"])
     .index("by_email", ["email"]),

@@ -51,6 +51,7 @@ export const store = mutation({
       tokenIdentifier: identity.tokenIdentifier,
       email: identity.email,
       image: identity.pictureUrl,
+      role: "candidate",
     });
   },
 });
